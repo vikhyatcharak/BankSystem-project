@@ -1,0 +1,33 @@
+                                            Theory of Projects
+1. Banking System:-
+        a> Customer:
+            variables-customerId, name
+            functions-getId(), getName()
+        b> Account:
+            variables-AccountId, amount, password
+            functions-deposit(money), withdraw(money),getAmount(), getPass(), getId()
+        c>Transaction:
+            variables:srcAccount,destAccount
+            functions:transfer(money)
+        d>Banking Service:(before it add LinkedList class)
+            variables: customers, accounts, transactions
+            functions: createAccount(name,amount), performDeposit(accountId,money), performWithdrawl(accountId,money)
+                       performTransactions(srcAccountId, destAccountId, money, password), checkDetails(CustomerId)
+                       checkTransactions(Customer Id)
+        e>int main(){
+            (i).  Account creation:
+                        input:name, money,password  or directly take them in BankingService
+            (ii). deposit money
+                        input:account id, money     or directly take them in BankingService
+            (iii). withdraw money
+                        input:accountId,money       or directly take them in BankingService
+            (iv).  transfer money
+                        input : srcAcc, destAcc, money, password      or directly take them in BankingService
+            (v).    check details
+                        input: id                  or directly take them in BankingService
+            (vi).   check transaction
+                    input: id                      or directly take them in BankingService
+        }
+
+
+
