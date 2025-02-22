@@ -6,7 +6,7 @@ Features
  - Account Handling - Deposit, withdraw, and transfer money securely.
  - Transaction History - Track transactions using linked lists.
  - Secure Authentication - Password-protected accounts.
- - 
+
 Technologies Used
  - C++ - Core programming language.
  - OOP Concepts - Encapsulation, inheritance, and polymorphism.
@@ -16,19 +16,19 @@ Technologies Used
 Project Structure
 
   - Customer
-    -- Variables: customerId, name
-    -- Functions: getId(), getName()
+       - Variables: customerId, name
+       - Functions: getId(), getName()
     
-  -Account
-    -- Variables: accountId, amount, password
-    -- Functions: deposit(money), withdraw(money), getAmount(), getPass(), getId()
+  - Account
+       - Variables: accountId, amount, password
+       - Functions: deposit(money), withdraw(money), getAmount(), getPass(), getId()
     
-  -Transaction
-    -- Variables: srcAccount, destAccount
-    -- Functions: transfer(money)
+    - Transaction
+      - Variables: srcAccount, destAccount
+      - Functions: transfer(money)
     
   - Banking Service (Uses Linked List for tracking)
-    -- Variables: customers, accounts, transactions
+      - Variables: customers, accounts, transactions
     
 Functions:
 
