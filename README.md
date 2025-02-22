@@ -12,21 +12,21 @@ Technologies Used
  - OOP Concepts - Encapsulation, inheritance, and polymorphism.
  - Linked Lists - Efficiently manage transaction records.
  - Dynamic Memory Allocation - Handle variable-size data structures.
- - 
+
 Project Structure
 
   - Customer
        - Variables: customerId, name
        - Functions: getId(), getName()
-    
+
   - Account
        - Variables: accountId, amount, password
        - Functions: deposit(money), withdraw(money), getAmount(), getPass(), getId()
-    
-    - Transaction
+
+  - Transaction
       - Variables: srcAccount, destAccount
       - Functions: transfer(money)
-    
+
   - Banking Service (Uses Linked List for tracking)
       - Variables: customers, accounts, transactions
     
